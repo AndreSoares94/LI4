@@ -1,0 +1,6 @@
+C:\Users\Asus\Documents\VStests\ConsultaJa\ConsultaJa\obj\Debug\ConsultaJa.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\VStests\ConsultaJa\ConsultaJa\bin\Debug\ConsultaJa.exe.config
+C:\Users\Asus\Documents\VStests\ConsultaJa\ConsultaJa\bin\Debug\ConsultaJa.exe
+C:\Users\Asus\Documents\VStests\ConsultaJa\ConsultaJa\bin\Debug\ConsultaJa.pdb
+C:\Users\Asus\Documents\VStests\ConsultaJa\ConsultaJa\obj\Debug\ConsultaJa.exe
+C:\Users\Asus\Documents\VStests\ConsultaJa\ConsultaJa\obj\Debug\ConsultaJa.pdb

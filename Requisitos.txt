@@ -1,0 +1,36 @@
+Funcionais:
+	- Sistema deverá disponibilizar para consulta todos os médicos e os seus serviços (preço à hora, descrição, especialidade, disponibilidade, ???) a todos os utilizadores.
+	- Todos os utilizadores que queiram usufruir dos serviços têm que se autenticar no site, tendo para isto que efectuar um registo. 
+Esse registo envolve o preenchimento dos dados: (email, palavra-passe, nome completo, nif, data de nascimento, morada, nº de telemovel).
+
+	- Para iniciar sessão no site o utilizador tem que introduzir o email e password. Caso os dados não correspondam o utilizador continua com estatuto de visitante.
+	- O utilizador/cliente precisa de estar autenticado para aceder à area pessoal. 
+Na área pessoal, o utilizador/cliente poderá editar o perfil, consultar histórico de consultas e ver as consultas agendadas e ainda fazer um pedido de marcação de consulta.
+O cliente poderá ainda avaliar as consultas que fez na sua area pessoal, através do historico de consultas. Esta avaliação será numa escala de 1 a 5 estrelas.
+
+	- O administrador terá uma conta especial com mais privilégios, de entre os quais adicionar um novo médico à aplicação, mediante um prévio pedido de inscrição com esse estatuto
+e fazer a gestão de todas as contas registadas, nomeadamente, eliminar, bloquear, etc. Para além disso, o administrador é o responsável por definir o preço de cada consulta.
+
+	- Um convidado apenas tem a possibilidade de se inscrever como paciente ou de fazer um pedido de registo na aplicação como médico. No caso da segunda opção descrita anteriormente, 
+é enviado para o administrador uma notificação. O processo de comprovação do estatuto do médico é feito de forma completamente alheia à aplicação em si. Caso o candidato consiga provar os seus 
+estatutos ao administrador, este último regista o candidato na aplicação como médico fornecendo alguns dados pessoais (email, palavra-passe, nome completo, nif, data de nascimento, morada, nº de telemovel).
+	- Um médico possui uma classificação atribuida pelos cliente aos quais administra consultas.
+	- Na sua área pessoal, o médico poderá aceder e aceitar pedidos de consulta, agendar e desmarcar consultas e consultar histórico e lista de consultas agendadas.
+	
+		
+		--> Agendamento de consultas
+	- Os clientes podem fazer pedidos de consulta que serão dados a conhecer a todos os médicos, nos quais se encontra especificada a disponibilidade do cliente 
+para a marcação de uma consulta.
+	- Um médico disponível, tendo em conta a disponibilidade do cliente, responderá a esse pedido agendando uma consulta para o cliente que enviou o pedido, 
+enviando para este uma notificação acerca da data da consulta com o nome do médico responsável pela mesma e com o respetivo preço de consulta definido à partida 
+pelo administrador. Após isto, a consulta fica marcada.
+	- Ambos médicos e clientes podem desmarcar uma consulta, desde que seja, no mínimo com 12horas de antecedência.
+
+
+
+Nao funcionais:
+	- De modo a motivar e facilitar a utilizaçao o site deverá ter uma interface simples e intuitiva
+	- Visto que o objetivo é ser apresentado num browser terá que ser compativel com os navegadores web mais comuns (IE, firefox, chrome, opera, safari)
+	- falar de disponibilidade, downtime, segurança, ???
+	- Recorrer a uma base de dados de forma a garantir a persistência dos dados com os quais a aplicação terá de lidar no decorrer do seu uso.
+	- Ser uma aplicação web, podendo ser usar por vários utilizadores em simultâneo.
